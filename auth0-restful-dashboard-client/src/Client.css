@@ -1,0 +1,38 @@
+.formContainer {
+  padding: 20px;
+}
+
+.formRow {
+  /* margin: 10px; */
+  padding: 1px;
+}
+
+.formRow label {
+  display: inline-block;
+  font-size: 18px;
+  width: 15%;
+  text-align: left;
+}
+
+.formRow input {
+  font-size: 18px;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formRow button {
+  width: 10%;
+  background-color: #EB5424;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px;
+  border: 1px solid #EB5424;;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
