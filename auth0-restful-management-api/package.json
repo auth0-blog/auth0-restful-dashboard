@@ -1,0 +1,25 @@
+{
+  "name": "auth0-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahJay55/auth0-management-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahJay55/auth0-management-api/issues"
+  },
+  "homepage": "https://github.com/SarahJay55/auth0-management-api#readme",
+  "dependencies": {
+    "auth0": "^2.18.0",
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "file-system": "^2.2.2"
+  }
+}
