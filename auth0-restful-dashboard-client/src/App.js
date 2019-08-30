@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import ResourceRenderer from './ResourceRenderer';
-import { useAuth0 } from "./react-auth0-wrapper";
+import { useAuth0 } from './react-auth0-wrapper';
 
 function App() {
-  const { loading, isAuthenticated, loginWithRedirect, logout } = useAuth0();
+  const { loading, isAuthenticated, loginWithRedirect } = useAuth0();
 
   if (loading) {
     return (
@@ -12,10 +12,12 @@ function App() {
     );
   }
 
+  if (!isAuthenticated) {
+    loginWithRedirect({});
+  }
+
   return (
     <div className="App">
-      {!isAuthenticated && loginWithRedirect({})}
-
       {isAuthenticated && <ResourceRenderer/>}     
     </div>
   );
