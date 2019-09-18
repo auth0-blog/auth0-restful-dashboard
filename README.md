@@ -1,5 +1,12 @@
 This repository contains a customized Auth0 dashboard implemented as a true RESTful system composed by an API (`auth0-restful-management-api` folder) and a React client (`auth0-restful-dashboard-client` folder).
 
+The following articles describe the implementation details:
+
+- [REST Architecture - Part 1: Building The API](https://auth0.com/blog/rest-architecture-part-1-building-api/)
+- [REST Architecture - Part 2: Building the Client](https://auth0.com/blog/rest-architecture-part-2-building-client/)
+
+
+
 ## To run this:
 
 1. Clone the repo: `git clone https://github.com/auth0-blog/auth0-restful-dashboard.git`
