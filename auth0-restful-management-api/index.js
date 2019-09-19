@@ -9,8 +9,6 @@ const apiPrefix = '/api';
 
 const app = express();
 
-app.use(bodyParser.json());
-
 const checkJwt = jwt({
     secret: jwksRsa.expressJwtSecret({
       cache: true,
@@ -24,6 +22,8 @@ const checkJwt = jwt({
   });
 
 app.use(checkJwt);
+
+app.use(bodyParser.json());
 
 app.get(apiPrefix, async (req, res) => {
     const clientsState = await getClients();
