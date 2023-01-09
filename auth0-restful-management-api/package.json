@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/SarahJay55/auth0-management-api#readme",
   "dependencies": {
-    "auth0": "^2.18.0",
+    "auth0": "^3.0.1",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^8.3.0",
     "file-system": "^2.2.2",
-    "jwks-rsa": "^1.6.0"
+    "jwks-rsa": "^3.0.0"
   }
 }
